@@ -69,13 +69,6 @@ include_directories(
 )
 
 
- add_executable(broadcast_desired_pose_rgb_normal_shear_torsion_rustam src/broadcast_desired_pose_rgb_normal_shear_torsion_rustam.cpp)
- add_dependencies(broadcast_desired_pose_rgb_normal_shear_torsion_rustam ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
- target_link_libraries(broadcast_desired_pose_rgb_normal_shear_torsion_rustam
-   ${catkin_LIBRARIES}
- )
-
  add_executable(ur5_nsh_experiment src/ur5_nsh_experiment.cpp)
  add_dependencies(ur5_nsh_experiment ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  target_link_libraries(ur5_nsh_experiment
@@ -94,11 +87,6 @@ include_directories(
  add_executable(light_touch src/light_touch.cpp)
  add_dependencies(light_touch ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  target_link_libraries(light_touch
-   ${catkin_LIBRARIES}
- )
- add_executable(myrosbag src/myrosbag.cpp)
- add_dependencies(myrosbag ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
- target_link_libraries(myrosbag
    ${catkin_LIBRARIES}
  )
  add_executable(pendulum src/pendulum.cpp)
