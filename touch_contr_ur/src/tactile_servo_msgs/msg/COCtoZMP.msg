@@ -1,0 +1,3 @@
+Header header
+int32 num_pixels_contact
+float64 coc_to_zmp_smooth

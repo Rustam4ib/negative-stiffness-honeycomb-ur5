@@ -1,0 +1,9 @@
+Header header
+float64 centerpressure_x
+float64 centerpressure_y
+float64 contactForce
+float64 centerContact_x
+float64 centerContact_y
+float64 contactOrientation
+float64 zmp_x
+float64 zmp_y

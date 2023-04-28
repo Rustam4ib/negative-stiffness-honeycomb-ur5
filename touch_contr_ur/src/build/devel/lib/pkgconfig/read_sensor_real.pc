@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: read_sensor_real
+Description: Description of read_sensor_real
+Version: 0.0.0
+Cflags: -I/home/zhan/ros/touch_contr_ur/src/series_elast_tact/read_sensor_real/include
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: roscpp rospy arduino_connect_msgs std_msgs sensor_msgs

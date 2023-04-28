@@ -1,0 +1,26 @@
+(cl:in-package tactile_servo_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          DESIRED_ORIENTATION-VAL
+          DESIRED_ORIENTATION
+          ACTUAL_ORIENTATION-VAL
+          ACTUAL_ORIENTATION
+          DESIRED_FORCE-VAL
+          DESIRED_FORCE
+          ACTUAL_FORCE-VAL
+          ACTUAL_FORCE
+          DESIRED_PRESSURE-VAL
+          DESIRED_PRESSURE
+          ACTUAL_PRESSURE-VAL
+          ACTUAL_PRESSURE
+          DESIRED_OFFSET_X-VAL
+          DESIRED_OFFSET_X
+          ACTUAL_OFFSET_X-VAL
+          ACTUAL_OFFSET_X
+          DESIRED_OFFSET_Y-VAL
+          DESIRED_OFFSET_Y
+          ACTUAL_OFFSET_Y-VAL
+          ACTUAL_OFFSET_Y
+          ACTUAL_PRESSURE2-VAL
+          ACTUAL_PRESSURE2
+))

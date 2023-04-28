@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: tactile_image
+Description: Description of tactile_image
+Version: 0.0.0
+Cflags: -I/home/zhan/ros/touch_contr_ur/src/tactile_image/include
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib -ltactile_image
+Requires: cmake_modules cv_bridge dynamic_reconfigure image_transport roscpp roslib sensor_msgs std_msgs tactile_servo_msgs

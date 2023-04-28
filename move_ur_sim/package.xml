@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+  <name>move_ur_sim</name>
+  <version>1.2.1</version>
+  <description>
+      Move UR5/10 arm
+  </description>
+
+  <author>Z</author>
+  <author email="z@swri.org">Shaun Edwards</author>
+  <author email="z@ipa.fhg.de">Felix Messmer</author>
+  <maintainer email="z@ipa.fhg.de">Felix Messmer</maintainer>
+  <maintainer email="z@tudelft.nl">G.A. vd. Hoorn</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/ur_driver</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  
+  <run_depend>tf</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>control_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+
+</package>

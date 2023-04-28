@@ -1,0 +1,24 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~noise_threshold" : \b [int] threshold to binarize image min: 0, default: 10, max: 255
+- \b "~coc_threshold" : \b [int] coc_threshold min: 0, default: 10, max: 255
+- \b "~pres_from_image" : \b [double] pres_from_image min: 0.0, default: 27.0, max: 999999999.0
+- \b "~force_from_area" : \b [double] force min: 0.0, default: 20000.0, max: 999999999.0
+- \b "~torque_from_image_y" : \b [double] torque_from_image_y min: 0.0, default: 25.0, max: 999999999.0
+- \b "~torque_from_image_x" : \b [double] torque_from_image_x min: 0.0, default: 25.0, max: 999999999.0
+- \b "~compare_eigens" : \b [int] compare_eigens min: 0, default: 5, max: 255
+- \b "~filter_length" : \b [double] filter_feats min: 0.0, default: 15.0, max: 100.0
+- \b "~coc2zmp_begin_num_pixels" : \b [int] No pix to begin to smooth trans min: 0, default: 7, max: 84
+- \b "~coc2zmp_end_num_pixels" : \b [int] No pix to end to smooth trans min: 0, default: 15, max: 84
+- \b "~coc2zmp_pixels2smoothtrans" : \b [double] for scaling No_pix to smooth min: -9999.0, default: 0.025, max: 9999.0
+- \b "~improc_bin_thresh" : \b [int] binarize min: 0, default: 10, max: 255
+- \b "~improc_filter_length_features" : \b [int] filter_length_features min: 0, default: 30, max: 255
+- \b "~find_contour_mode_name" : \b [str] Contour retrieval mode:CV_RETR_EXTERNAL,CV_RETR_LIST,CV_RETR_CCOMP,CV_RETR_TREE min: , default: CV_RETR_EXTERNAL, max: 
+- \b "~find_contour_method_name" : \b [str] Contour approximation method:CV_CHAIN_APPROX_NONE,CV_CHAIN_APPROX_SIMPLE min: , default: CV_CHAIN_APPROX_SIMPLE, max: 
+- \b "~improc_approx_epsilon" : \b [double] Parameter specifying the approximation accuracy. This is the maximum distance between the original curve and its approximation. min: 0.01, default: 1.0, max: 10000.0
+- \b "~force_scale" : \b [double] force_scale min: 1.0, default: 20000.0, max: 999999999.0
+- \b "~improc_area_thresh" : \b [int] threshold for contact area min: 0, default: 14, max: 2000
+- \b "~improc_scaling_factor" : \b [int] scaling_factor min: 0, default: 30, max: 2000
+

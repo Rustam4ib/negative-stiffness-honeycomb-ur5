@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<robot name="honeycomb" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="$(find honeycomb_description)/urdf/materials.xacro" />
+    <xacro:include filename="$(find honeycomb_description)/urdf/honeycomb.trans" />
+    <xacro:include filename="$(find honeycomb_description)/urdf/honeycomb.gazebo" />
+
+
+    <link name="base_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="pure_black"/>
+      </visual>
+    </link>
+
+
+    <link name="up_circle">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/up_circle_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="red"/>
+      </visual>
+    </link>
+
+    <link name="down_circle">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/down_circle__1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="yellow"/>
+      </visual>
+    </link>
+
+    <link name="honeycomb_down">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/honeycomb_down_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="yellow"/>
+      </visual>
+    </link>
+
+    <link name="honeycomb_mid">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/honeycomb_mid_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="yellow"/>
+      </visual>
+    </link>
+
+    <link name="honeycomb_up">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/honeycomb_up_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="yellow"/>
+      </visual>
+    </link>
+
+    <link name="magnet_holder">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/magnet_holder_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="white"/>
+      </visual>
+    </link>
+
+    <link name="pulley">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/pulley_v1_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="silver"/>
+      </visual>
+    </link>
+
+    <link name="ee_shaft">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/ee_shaft_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+    </link>
+
+    <link name="shaft_base">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/shaft_base_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="red"/>
+      </visual>
+    </link>
+
+    <link name="bearing_shaft">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/bearing_shaft_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+    </link>
+
+    <link name="bearing">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/bearing_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="silver"/>
+      </visual>
+    </link>
+
+    <link name="pulley_holder">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/pulley_holder_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="silver"/>
+      </visual>
+    </link>
+
+    <link name="mx106">
+      <visual>
+        <origin xyz="0 0 0 " rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/mx106_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+    </link>
+
+    <link name="MX106Holder">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://honeycomb_description/meshes/MX106Holder_v1_1.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="white"/>
+      </visual>
+    </link>
+
+
+
+    <joint name="joint1" type="fixed">
+        <parent link="base_link"/>
+        <child link="up_circle"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="joint2" type="fixed">
+        <parent link="base_link"/>
+        <child link="down_circle"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint3" type="fixed">
+        <parent link="base_link"/>
+        <child link="honeycomb_down"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint4" type="fixed">
+        <parent link="base_link"/>
+        <child link="honeycomb_mid"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint5" type="fixed">
+        <parent link="base_link"/>
+        <child link="honeycomb_up"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint6" type="fixed">
+        <parent link="base_link"/>
+        <child link="magnet_holder"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint7" type="fixed">
+        <parent link="base_link"/>
+        <child link="pulley"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint8" type="fixed">
+        <parent link="base_link"/>
+        <child link="ee_shaft"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint9" type="fixed">
+        <parent link="base_link"/>
+        <child link="shaft_base"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint10" type="fixed">
+        <parent link="base_link"/>
+        <child link="MX106Holder"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint11" type="fixed">
+        <parent link="base_link"/>
+        <child link="mx106"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint12" type="fixed">
+        <parent link="base_link"/>
+        <child link="pulley_holder"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="joint13" type="fixed">
+        <parent link="base_link"/>
+        <child link="bearing"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+    <joint name="joint14" type="fixed">
+        <parent link="base_link"/>
+        <child link="bearing_shaft"/>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+    </joint>
+
+
+
+</robot>

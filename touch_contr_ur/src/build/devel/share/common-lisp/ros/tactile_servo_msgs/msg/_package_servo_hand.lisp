@@ -1,0 +1,14 @@
+(cl:in-package tactile_servo_msgs-msg)
+(cl:export '(HEADER-VAL
+          HEADER
+          DESIRED_ORIENTATION-VAL
+          DESIRED_ORIENTATION
+          ACTUAL_ORIENTATION-VAL
+          ACTUAL_ORIENTATION
+          ERROR_ORIENTATION-VAL
+          ERROR_ORIENTATION
+          HAND_ORIENTATION-VAL
+          HAND_ORIENTATION
+          OBJ_REAL_ORIENTATION-VAL
+          OBJ_REAL_ORIENTATION
+))

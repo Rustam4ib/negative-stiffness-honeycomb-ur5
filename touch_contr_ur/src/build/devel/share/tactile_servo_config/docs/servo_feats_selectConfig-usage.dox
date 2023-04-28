@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="servoing_controller" pkg="tactile_servo_config" type="servoing_controller">
+  <param name="servo_copx" type="int" value="0" />
+  <param name="servo_copy" type="int" value="0" />
+  <param name="servo_force" type="int" value="1" />
+  <param name="servo_cocx" type="int" value="0" />
+  <param name="servo_cocy" type="int" value="0" />
+  <param name="servo_orient" type="int" value="0" />
+</node>
+\endverbatim
+

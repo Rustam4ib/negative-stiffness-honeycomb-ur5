@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~servo_copx" : \b [int] servo_copx min: 0, default: 0, max: 1
+- \b "~servo_copy" : \b [int] servo_copx min: 0, default: 0, max: 1
+- \b "~servo_force" : \b [int] servo_force min: 0, default: 1, max: 1
+- \b "~servo_cocx" : \b [int] servo_cocx min: 0, default: 0, max: 1
+- \b "~servo_cocy" : \b [int] servo_cocy min: 0, default: 0, max: 1
+- \b "~servo_orient" : \b [int] servo_orient min: 0, default: 0, max: 1
+

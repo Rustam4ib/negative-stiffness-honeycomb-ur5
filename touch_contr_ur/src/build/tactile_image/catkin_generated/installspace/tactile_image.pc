@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: tactile_image
+Description: Description of tactile_image
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -ltactile_image
+Requires: cmake_modules cv_bridge dynamic_reconfigure image_transport roscpp roslib sensor_msgs std_msgs tactile_servo_msgs

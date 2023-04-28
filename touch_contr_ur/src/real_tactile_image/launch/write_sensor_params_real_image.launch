@@ -1,0 +1,4 @@
+<launch>
+    	<rosparam file="$(find tactile_servo_config)/sensors/tactile_arrays_conf.yaml" command="load"/>
+	<node pkg="real_tactile_image" type ="weiss_communicate_8and12bit.py" name = "weiss_communicate_8and12bit" output="screen">  </node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: real_tactile_image
+Description: Description of real_tactile_image
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: rospy

@@ -1,0 +1,4 @@
+<launch>
+    	<rosparam file="$(find gazebo_tactile_image)/config/tactile_arrays_conf.yaml" command="load"/>
+	<node pkg="real_tactile_image" type ="weiss_communicate_8and12bit" name = "weiss_communicate_8and12bit" output="screen">  </node>
+</launch>

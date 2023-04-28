@@ -1,0 +1,13 @@
+<launch>
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/joint_names.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/Joint_Names_Set_Conf.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/Joint_Pose_Set_Conf.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/joint_initial_pos_AG.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/joint_names_initialization.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/joint_initial_pos.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/fingers.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/param/phalange.yaml" />
+	<rosparam command="load" file="$(find tactile_servo_config)/arm_hand/phalange_real.yaml" />
+	
+	<rosparam command="load" file="$(find gazebo_tactile_image)/config/tactile_arrays_conf.yaml" />
+</launch>

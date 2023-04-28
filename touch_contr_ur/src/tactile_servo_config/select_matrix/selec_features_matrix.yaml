@@ -1,0 +1,7 @@
+select_servo_feats_palm: [
+ 0,         #copx          
+ 0,         #copy
+ 0,         #force
+ 0,         #zmpx or rot wx
+ 0,         #zmpy or rot wy
+ 0]         #orient

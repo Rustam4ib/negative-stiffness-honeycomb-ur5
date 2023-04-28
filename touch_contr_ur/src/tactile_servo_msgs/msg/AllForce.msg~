@@ -1,0 +1,4 @@
+Header header
+tactile_servo_msgs/ContsFeats real
+float64 desired
+geometry_msgs/WrenchStamped weiss

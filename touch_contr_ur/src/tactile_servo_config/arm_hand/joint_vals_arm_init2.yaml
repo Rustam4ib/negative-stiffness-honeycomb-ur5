@@ -1,0 +1,8 @@
+joint_vals_arm_initial2: [
+ -0.78,        #sa_er          
+ 1.57,         #sa_es
+ 0.00,         #sa_ss
+ -0.05,         #sa_sr
+ 0.02,         #sh_wrj1
+ 0.00]         #sh_wrj2
+

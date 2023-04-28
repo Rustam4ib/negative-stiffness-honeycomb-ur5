@@ -1,0 +1,3 @@
+name_controller_type:
+- 'mixed_position_velocity_controller'
+- 'position_controller'

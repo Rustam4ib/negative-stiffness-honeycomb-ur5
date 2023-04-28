@@ -1,0 +1,6 @@
+Header header
+float64 desired_orientation
+float64 actual_orientation
+float64 error_orientation
+float64 hand_orientation
+float64 obj_real_orientation

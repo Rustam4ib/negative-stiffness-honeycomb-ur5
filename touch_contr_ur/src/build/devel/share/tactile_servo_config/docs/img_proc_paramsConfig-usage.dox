@@ -1,0 +1,25 @@
+\subsubsection usage Usage
+\verbatim
+<node name="image_proc_node" pkg="tactile_servo_config" type="image_proc_node">
+  <param name="noise_threshold" type="int" value="10" />
+  <param name="coc_threshold" type="int" value="10" />
+  <param name="pres_from_image" type="double" value="27.0" />
+  <param name="force_from_area" type="double" value="20000.0" />
+  <param name="torque_from_image_y" type="double" value="25.0" />
+  <param name="torque_from_image_x" type="double" value="25.0" />
+  <param name="compare_eigens" type="int" value="5" />
+  <param name="filter_length" type="double" value="15.0" />
+  <param name="coc2zmp_begin_num_pixels" type="int" value="7" />
+  <param name="coc2zmp_end_num_pixels" type="int" value="15" />
+  <param name="coc2zmp_pixels2smoothtrans" type="double" value="0.025" />
+  <param name="improc_bin_thresh" type="int" value="10" />
+  <param name="improc_filter_length_features" type="int" value="30" />
+  <param name="find_contour_mode_name" type="str" value="CV_RETR_EXTERNAL" />
+  <param name="find_contour_method_name" type="str" value="CV_CHAIN_APPROX_SIMPLE" />
+  <param name="improc_approx_epsilon" type="double" value="1.0" />
+  <param name="force_scale" type="double" value="20000.0" />
+  <param name="improc_area_thresh" type="int" value="14" />
+  <param name="improc_scaling_factor" type="int" value="30" />
+</node>
+\endverbatim
+

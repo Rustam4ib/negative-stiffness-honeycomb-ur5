@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: move_ur_sim
+Description: Description of move_ur_sim
+Version: 1.2.1
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: tactile_servo_msgs

@@ -1,0 +1,15 @@
+joint_initial_pos_AG: [
+ 0.02,         #FFJ0          
+ 0.02,         #FFJ3
+ 0.02,         #LFJ0
+ 0.02,         #LFJ3
+ 0.02,         #MFJ0
+ 0.02,         #MFJ3
+ 0.02,         #RFJ0
+ 0.02,         #RFJ3
+ 0.348,        #THJ1
+ 0.523,        #THJ2
+ 0,            #THJ3
+ 1.046,        #THJ4
+ 0     ]       #THJ5
+ 

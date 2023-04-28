@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: callibration_pkg
+Description: Description of callibration_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: cv_bridge image_transport message_runtime geometry_msgs message_filters roscpp rospy sensor_msgs std_msgs tactile_servo_msgs

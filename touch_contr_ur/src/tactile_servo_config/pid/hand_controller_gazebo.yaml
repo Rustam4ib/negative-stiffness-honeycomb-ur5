@@ -1,0 +1,72 @@
+servo_pid:
+  palm:
+    x:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002
+    y:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002
+    z:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002
+    wx:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002
+    wy:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002
+    wz:
+      d: 0
+      i: 0
+      i_clamp: 1.5
+      p: 1
+      position_deadband: 0.002      
+servo_pid_palm_y:
+  d: 0
+  i: 0
+  i_clamp: 1.5
+  p: 1
+  position_deadband: 0.002
+
+servo_pid_palm_z:
+  d: 0
+  i: 0
+  i_clamp: 1.5
+  p: 0.00055556#inverse stiffness 1/k estimated to be 1/1800. 1mm is 1.8 N max force.
+  position_deadband: 0.002
+
+servo_pid_palm_wx:
+  d: 0
+  i: 0
+  i_clamp: 1.5
+  p: 1.125#inverse rotational stiffness 1/krot estimated to be 1.8N*25mm/0.04rad. 0.04 rad = arctg(1mm/25mm) 1mm is 1.8 N.
+  position_deadband: 0.002
+
+servo_pid_palm_wy:
+  d: 0
+  i: 0
+  i_clamp: 1.5
+  p: 1.125#inverse rotational stiffness 1/krot estimated to be 1.8N*12.5mm/0.08rad. 0.04 rad = arctg(1mm/25mm) 1mm is 1.8 N.
+  position_deadband: 0.002
+  
+servo_pid_palm_wz:
+  d: 0
+  i: 0
+  i_clamp: 1.5
+  p: 1
+  position_deadband: 0.002

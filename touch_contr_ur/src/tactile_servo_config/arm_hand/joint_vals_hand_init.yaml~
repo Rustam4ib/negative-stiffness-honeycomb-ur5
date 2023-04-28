@@ -1,0 +1,20 @@
+joint_vals_hand_initial: [
+ 0.02,#FFJ0          
+ 0.02,#FFJ3
+ 0.02,#FFJ4
+ 0.02,#MFJ0 
+ 0.02,#MFJ3
+ 0.02,#MFJ4
+ 0.02,#RFJ0
+ 0.02,#RFJ3
+ 0.02,#RFJ4
+ 0.02,#LFJ0
+ 0.02,#LFJ3
+ 0.02,#LFJ4
+ 0.02,#LFJ5
+ 0.348,#THJ1
+ 0.345,#THJ2
+ 0,    #THJ3
+ 0.2,#THJ4
+ 0]    #THJ5
+ 

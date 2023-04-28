@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: show_markers
+Description: Description of show_markers
+Version: 0.0.0
+Cflags: -I/home/zhan/ros/touch_contr_ur/src/show_markers/include
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: geometry_msgs roscpp sensor_msgs std_msgs tf tf_conversions tactile_servo_msgs

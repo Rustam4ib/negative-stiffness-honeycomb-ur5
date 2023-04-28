@@ -1,0 +1,8 @@
+contact_points
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/share/contact_points/cmake/contact_pointsConfig-version.cmake /home/zhan/ros/touch_contr_ur/devel/share/contact_points/cmake/contact_pointsConfig-version.cmake
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/share/contact_points/cmake/contact_pointsConfig.cmake /home/zhan/ros/touch_contr_ur/devel/share/contact_points/cmake/contact_pointsConfig.cmake
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/lib/contact_points/contact_points_node /home/zhan/ros/touch_contr_ur/devel/lib/contact_points/contact_points_node
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/lib/contact_points/contact_points_ur_node /home/zhan/ros/touch_contr_ur/devel/lib/contact_points/contact_points_ur_node
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/lib/contact_points/contact_points_ur_rgb_matlab_node /home/zhan/ros/touch_contr_ur/devel/lib/contact_points/contact_points_ur_rgb_matlab_node
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/lib/contact_points/contact_points_kuka_node /home/zhan/ros/touch_contr_ur/devel/lib/contact_points/contact_points_kuka_node
+/home/zhan/ros/touch_contr_ur/devel/.private/contact_points/lib/pkgconfig/contact_points.pc /home/zhan/ros/touch_contr_ur/devel/lib/pkgconfig/contact_points.pc

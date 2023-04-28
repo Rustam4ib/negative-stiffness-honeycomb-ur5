@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/servo.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/Image_weiss.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/servo_hand.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/ContsFeats.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/OneContFeats.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/StiffDepthForce.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/PlanFeats.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/compare_eigens.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/CalibWeissNano.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/tunePid.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/tunePidjoint.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/ErrProp.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/COCtoZMP.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/PlotMatlab.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/PlotMatlabfarea.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/PlotMatlabfareaiscontact.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/PlotMatlabImg.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/CalibSerieselOptoforce.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/touch_sensor_read.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/AllForce.msg;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg/AllPoints.msg"
+services_str = ""
+pkg_name = "tactile_servo_msgs"
+dependencies_str = "std_msgs;sensor_msgs"
+langs = "gencpp;genlisp;genpy"
+dep_include_paths_str = "tactile_servo_msgs;/home/zhan/ros/touch_contr_ur/src/tactile_servo_msgs/msg;std_msgs;/opt/ros/indigo/share/std_msgs/cmake/../msg;sensor_msgs;/opt/ros/indigo/share/sensor_msgs/cmake/../msg;geometry_msgs;/opt/ros/indigo/share/geometry_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

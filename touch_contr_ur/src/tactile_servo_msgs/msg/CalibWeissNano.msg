@@ -1,0 +1,10 @@
+Header header
+float64 contactForce
+float64 zmp_x
+float64 zmp_y
+float64 cop_x
+float64 cop_y
+float64 orient_z
+float64 coc_x
+float64 coc_y
+geometry_msgs/Wrench nano

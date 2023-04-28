@@ -1,0 +1,2 @@
+set(tactile_servo_msgs_MESSAGE_FILES "msg/servo.msg;msg/Image_weiss.msg;msg/servo_hand.msg;msg/ContsFeats.msg;msg/OneContFeats.msg;msg/StiffDepthForce.msg;msg/PlanFeats.msg;msg/compare_eigens.msg;msg/CalibWeissNano.msg;msg/tunePid.msg;msg/tunePidjoint.msg;msg/ErrProp.msg;msg/COCtoZMP.msg;msg/PlotMatlab.msg;msg/PlotMatlabfarea.msg;msg/PlotMatlabfareaiscontact.msg;msg/PlotMatlabImg.msg;msg/CalibSerieselOptoforce.msg;msg/touch_sensor_read.msg;msg/AllForce.msg;msg/AllPoints.msg")
+set(tactile_servo_msgs_SERVICE_FILES "")

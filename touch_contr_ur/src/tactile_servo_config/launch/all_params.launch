@@ -1,0 +1,6 @@
+<launch>
+  <rosparam file="$(find tactile_servo_config)/arm_hand/init_arm_pose_one.yaml" command="load"/>
+  <rosparam file="$(find tactile_servo_config)/pid/servo_pid_palm.yaml" command="load"/>
+  <rosparam file="$(find tactile_servo_config)/select_matrix/selec_features_matrix.yaml" command="load"/>
+  <rosparam file="$(find tactile_servo_config)/sensors/tactile_arrays_conf.yaml" command="load"/>
+</launch>

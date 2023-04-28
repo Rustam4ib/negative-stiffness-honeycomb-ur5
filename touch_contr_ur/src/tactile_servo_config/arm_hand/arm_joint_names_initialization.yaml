@@ -1,0 +1,7 @@
+arm_joint_names_initialization: [
+"sa_er", 
+"sa_es", 
+"sa_ss", 
+"sa_sr", 
+"sh_wrj1", 
+"sh_wrj2"]

@@ -1,0 +1,74 @@
+tactile_arrays_param:
+  -
+    name: 'weiss_palm'
+    dimensions: [cells_x: 4, cells_y: 4]
+    size: [x: 0.068, y: 0.068]
+    sensitivity: 400000.01
+    range: 3850
+    filter_length: 8
+    spread_func: 'simple'
+    taxel_size: 1
+    tactile_image_topic_name: 'ros_tactile_image'
+    fb_feats_control_topic_name: 'fb_feats'
+    fb_feats_planning_topic_name: 'plan_feats'
+    gazebo_bumper_topic: 'contacts/weiss'
+    frame_id_header: 'weiss_palm'
+    tactile_pressure_topic_name: 'ros_tactile_image_weiss'
+    frame_name_urdf: 'weiss'
+    des_feats_topic_name: 'des_feats'
+    controller_type: '_position_controller'
+    tactel_area: 0.00001156
+    contact_points_topic_name: 'contact_points_weiss'
+    hight_of_sensor: 0.017
+    threshold_noise: 7
+    compliance: 0.00055556 # the same as in pid params. inverse stiffness 1/k estimated to be 1/1800. 1mm is 1.8 N max force.
+    base_frame_name_urdf: 'shadowarm_base'
+    contact_points_topic_name_to_record: 'contact_points_weiss_plot'
+    pressure_from_image: 18.5 # plot forces from ati nano and weiss features. tune using dynamic reconfigure. this value normally should be derived from callibration
+    features_filtering_samples: 10
+    fb_feats_filtered_topic_name: 'fb_feats_avg'
+  -
+    name: 'weiss_palm_2'
+    dimensions: [cells_x: 6, cells_y: 14]
+    size: [x: 0.025, y: 0.05]
+    sensitivity: 350.0
+    range: 3850
+    filter_length: 10
+    spread_func: 'simple'
+    taxel_size: 1
+    tactile_image_topic_name: 'ros_tactile_image2'
+    control_topic_name: 'control_features2'
+    planning_topic_name: 'planning_features2'
+    gazebo_bumper_topic: 'contacts/weiss2'
+    frame_id_header: 'weiss_palm2'
+    tactile_pressure_topic_name: 'ros_tactile_image_weiss2'
+    frame_name_urdf: 'weiss2'
+  -
+    name: 'weiss_palm_3'
+    dimensions: [cells_x: 12, cells_y: 12]
+    size: [x: 0.06, y: 0.06]
+    sensitivity: 400000.0
+    range: 3850
+    filter_length: 8
+    spread_func: 'simple'
+    taxel_size: 1
+    tactile_image_topic_name: 'ros_tactile_image'
+    control_topic_name: 'control_features'
+    planning_topic_name: 'planning_features'
+    gazebo_bumper_topic: 'contacts/weiss'
+    frame_id_header: 'weiss_palm'
+    tactile_pressure_topic_name: 'ros_tactile_image_weiss'
+    frame_name_urdf: 'weiss_big'
+
+display_names:
+  - 'ff'
+  - 'mf'
+  - 'rf'
+  - 'lf'
+  - 'th'
+sensor_touch_names:
+  - 'FF_Touch_Unscaled'
+  - 'MF_Touch_Unscaled'
+  - 'RF_Touch_Unscaled'
+  - 'LF_Touch_Unscaled'
+  - 'TH_Touch_Unscaled'

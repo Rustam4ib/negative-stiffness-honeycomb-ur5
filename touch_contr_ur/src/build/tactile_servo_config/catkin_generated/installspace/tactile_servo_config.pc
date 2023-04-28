@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: tactile_servo_config
+Description: Description of tactile_servo_config
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

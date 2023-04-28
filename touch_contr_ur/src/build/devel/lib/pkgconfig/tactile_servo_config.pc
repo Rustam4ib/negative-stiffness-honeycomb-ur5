@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: tactile_servo_config
+Description: Description of tactile_servo_config
+Version: 0.0.0
+Cflags: -I/home/zhan/ros/touch_contr_ur/src/build/devel/include
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: 

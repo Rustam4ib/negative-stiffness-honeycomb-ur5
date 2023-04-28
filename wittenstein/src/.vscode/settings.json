@@ -1,0 +1,27 @@
+{
+  "ros.distro": "melodic",
+  "python.autoComplete.extraPaths": [
+    "/home/rustam/catkin_ws/devel/lib/python2.7/dist-packages",
+    "/opt/ros/melodic/lib/python2.7/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/rustam/catkin_ws/devel/lib/python2.7/dist-packages",
+    "/opt/ros/melodic/lib/python2.7/dist-packages"
+  ],
+  "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
+  "C_Cpp_Runner.cppCompilerPath": "/usr/bin/g++",
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false
+}

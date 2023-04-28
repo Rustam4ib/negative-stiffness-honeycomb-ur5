@@ -1,0 +1,38 @@
+servo_pid:
+  palm:
+    x:
+      d: 0.0
+      i: 0 # for kuka # 0.001 hand
+      i_clamp: 0.001
+      p: 0.001 # for bimanual 0.0015 # for servo tiltes edge  0.015 # for myfinger rolover 0.01 #for rolling  0.001 # with floating edge # 0.002 # line follow 0.01 # better gain # 0.1 for human touch 0.005 # for kuka # 0.5
+      position_deadband: 0.002
+    y:
+      d: 0.0
+      i: 0 # for kuka # 0.001 hand
+      i_clamp: 0.001
+      p: 0.005 # for bimanual  0.01 # better gain 0.005
+      position_deadband: 0.002
+    z:
+      d: 0.0
+      i: 0.0 #0.001
+      i_clamp: 0.000002 # somtimes there is an bias I_clamp max must be 0.0002 or less and I_clamp min -0.002# the maximum compliance of the sensor is 2 mm to do the iclam more the maximum penetration is pointless
+      p: 0.00003 # for competition  0.00006 # for the cylinder tuned using squarewaves 0.00002 # 0.00055556 # inverse stiffness 1/k estimated to be 1/1800. 1mm is 1.8 N max force.
+      position_deadband: 0.002
+    wx:
+      d: 0.0
+      i: 0.0
+      i_clamp: 1.5
+      p: 0.015 #my finger 0.01 # for competition with hayward # 0.0001 # kuka 0.000375 # it is new value the zmpx vary frm 0 to 80 whereas the maximum degrees for penetration is 2 deg which is 0.03 rad hence 80*x = 0.03 rad inverse rotational stiffness 1/krot estimated to be 1.8N*25mm/0.04rad. 0.04 rad = arctg(1mm/25mm) 1mm is 1.8 N.
+      position_deadband: 0.002
+    wy:
+      d: 0.0
+      i: 0.0
+      i_clamp: 1.5
+      p: 0.002 # with floating edge # 0.004 # it was oscilating with 0025 # 0.025 # line following with zmp # 0.01 # if coc is used # 0.0008 kuka partia contact 0.0001 # kuka good 0.000001 # tuning for kuka 0.000375 #1.125 # inverse rotational stiffness 1/krot estimated to be 1.8N*12.5mm/0.08rad. 0.04 rad = arctg(1mm/25mm) 1mm is 1.8 N.
+      position_deadband: 0.002
+    wz:
+      d: 0.0
+      i: 0.0 # kuka 0.0 # kuka # 0.001 # hand
+      i_clamp: 0.00001 # kuka
+      p: 0.003 # line follow with zmpto avoid sensor noise 0.006 # kuka 0.00001 # kuka # 0.05 # hand
+      position_deadband: 0.002

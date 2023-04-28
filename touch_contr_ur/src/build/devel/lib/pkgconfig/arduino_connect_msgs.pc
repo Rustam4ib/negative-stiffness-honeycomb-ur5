@@ -1,0 +1,8 @@
+prefix=/home/zhan/ros/touch_contr_ur/src/build/devel
+
+Name: arduino_connect_msgs
+Description: Description of arduino_connect_msgs
+Version: 1.3.2
+Cflags: -I/home/zhan/ros/touch_contr_ur/src/build/devel/include
+Libs: -L/home/zhan/ros/touch_contr_ur/src/build/devel/lib 
+Requires: roslib message_runtime std_msgs sensor_msgs

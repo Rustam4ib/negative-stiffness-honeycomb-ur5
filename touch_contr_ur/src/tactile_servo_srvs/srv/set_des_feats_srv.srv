@@ -1,0 +1,11 @@
+float64 copx
+float64 copy
+float64 force
+float64 cocx
+float64 cocy
+float64 orient
+float64 zmp_x
+float64 zmp_y
+---
+
+int64 success

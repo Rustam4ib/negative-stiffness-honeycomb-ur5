@@ -1,0 +1,6 @@
+series_elast_tact/read_sensor_real
+/home/zhan/ros/touch_contr_ur/devel/.private/read_sensor_real/share/read_sensor_real/cmake/read_sensor_realConfig.cmake /home/zhan/ros/touch_contr_ur/devel/share/read_sensor_real/cmake/read_sensor_realConfig.cmake
+/home/zhan/ros/touch_contr_ur/devel/.private/read_sensor_real/share/read_sensor_real/cmake/read_sensor_realConfig-version.cmake /home/zhan/ros/touch_contr_ur/devel/share/read_sensor_real/cmake/read_sensor_realConfig-version.cmake
+/home/zhan/ros/touch_contr_ur/devel/.private/read_sensor_real/lib/read_sensor_real/create_ros_image_from_arduino /home/zhan/ros/touch_contr_ur/devel/lib/read_sensor_real/create_ros_image_from_arduino
+/home/zhan/ros/touch_contr_ur/devel/.private/read_sensor_real/lib/read_sensor_real/create_ros_image_from_nidaq /home/zhan/ros/touch_contr_ur/devel/lib/read_sensor_real/create_ros_image_from_nidaq
+/home/zhan/ros/touch_contr_ur/devel/.private/read_sensor_real/lib/pkgconfig/read_sensor_real.pc /home/zhan/ros/touch_contr_ur/devel/lib/pkgconfig/read_sensor_real.pc

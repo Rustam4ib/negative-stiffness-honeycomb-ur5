@@ -1,0 +1,4 @@
+<launch>
+    	<rosparam file="$(find gazebo_tactile_image)/config/tactile_arrays_conf.yaml" command="load"/>
+	<node pkg="gazebo_tactile_image" type ="stiffness" name = "stiffness" output="screen">  </node>
+</launch>

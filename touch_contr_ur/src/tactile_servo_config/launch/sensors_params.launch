@@ -1,0 +1,3 @@
+<launch>
+	<rosparam command="load" file="$(find tactile_servo_config)/sensors/tactile_arrays_conf.yaml" />
+</launch>

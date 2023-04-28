@@ -1,0 +1,12 @@
+Header header
+float64 desired_orientation 
+float64 actual_orientation
+float64 desired_force 
+float64 actual_force
+float64 desired_pressure
+float64 actual_pressure
+float64 desired_offset_x
+float64 actual_offset_x
+float64 desired_offset_y
+float64 actual_offset_y
+float64 actual_pressure2
