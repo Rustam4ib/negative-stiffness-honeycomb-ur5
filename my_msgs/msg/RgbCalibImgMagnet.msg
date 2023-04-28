@@ -1,0 +1,3 @@
+Header header
+geometry_msgs/Point pointCoordinate
+float64 magneticField

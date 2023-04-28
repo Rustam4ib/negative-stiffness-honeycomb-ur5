@@ -1,0 +1,5 @@
+float64[] index
+float64[] middle
+float64[] palm_index
+float64[] palm
+float64[] thumb

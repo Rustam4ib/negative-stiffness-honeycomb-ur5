@@ -1,0 +1,12 @@
+Header header
+float64 operation_mode
+float64 current_state
+geometry_msgs/Point point_coordinate
+float64 angle_z
+float64 fx
+float64 fy
+float64 fz
+float64 fwx
+float64 fwy
+float64 fwz
+sensor_msgs/Image camera_image
