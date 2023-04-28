@@ -1,0 +1,17 @@
+<launch>
+<!-- Launch 2 Teensy boards -->
+
+    <node
+        pkg="rosserial_python"
+        type="serial_node.py"
+        name="Teensy_hall"
+        args="/dev/ttyACM0"
+    ></node>
+
+    <node
+        pkg="rosserial_python"
+        type="serial_node.py"
+        name="Sunfounder_adxl"
+        args="/dev/ttyACM1"
+    ></node>
+</launch>
