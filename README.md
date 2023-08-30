@@ -1,6 +1,5 @@
-# negative-stiffness-honeycomb-ur5
+# HOW-TO run experiments and use UR5 and other sensors
 
-# NegativeStiffnessHoneycomb
 ## UR5 modern driver: improving usability as well as enabling compatibility of ros_control
 ```
 roslaunch ur_modern_driver ur5_bringup.launch robot_ip:=192.168.0.101
