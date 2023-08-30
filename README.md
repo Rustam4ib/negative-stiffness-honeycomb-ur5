@@ -19,12 +19,9 @@ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch
 source ~/devel/setup.bash 
 ```
 * ### Run your python script 
-``` 
-rosrun calibrate_rgb_sensor_rustam move_robot_back_rustam.py
+
 ```
-or
-```
-rosrun calibrate_rgb_sensor_rustam move_robot_back_rustam_light.py
+rosrun experiments move_robot_back_rustam_light.py
 ```
 #
 # How to RUN experiment
