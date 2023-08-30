@@ -69,7 +69,13 @@ rosrun wittenstein wittenstein_main
 ```
 rostopic echo /wittenstein_topic
 ```
-
+### potential problem of not connecting is access. To solve:
+```
+sudo chmod 666 /dev/ttyACM1
+OR
+sudo chmod 666 /dev/ttyACM0
+OR another port
+```
 
 
 #
