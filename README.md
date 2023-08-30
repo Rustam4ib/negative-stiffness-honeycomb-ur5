@@ -13,10 +13,10 @@ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch
 ## How to change initial position and orientation of UR5
 * ### manually move the robot via UR5 teach pendant
 * ### check `rostopic echo /joint_states` 
-* ### copy the position to *move_robot_back.py*
+* ### copy the position to catkin_ws/src/experiments/script/*move_robot_back.py*
 * ### source your environment
 ```
-source ~/rustamch/devel/setup.bash 
+source ~/devel/setup.bash 
 ```
 * ### Run your python script 
 ``` 
@@ -151,17 +151,6 @@ rosrun rosserial_arduino make_libraries.py /home/rustam/Arduino/libraries /home/
 ```
 ### A new ros_lib folder is created where all compiled libraries
 ### *No difference with: rosrun rosserial_arduino make_libraries.py /home/rustam/Arduino/libraries*
-#
-## vscode crash:
-*crash of vscode week 1-6 april 2022
-Version: 1.66.0
-Commit: e18005f0f1b33c29e81d732535d8c0e47cafb0b5
-Date: 2022-03-30T05:50:41.156Z
-Electron: 17.2.0
-Chromium: 98.0.4758.109
-Node.js: 16.13.0
-V8: 9.8.177.11-electron.0
-OS: Linux x64 5.4.0-107-generic snap*
 
 
 #
