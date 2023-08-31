@@ -13,14 +13,14 @@ roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch
 ## How to change initial position and orientation of UR5
 * ### manually move the robot via UR5 teach pendant
 * ### check `rostopic echo /joint_states` 
-* ### copy the position to catkin_ws/src/experiments/script/*move_robot_back.py*
+* ### copy the position to catkin_ws/src/experiments/script/*move_robot_back_home.py*
 * ### source your environment
 ```
 source ~/devel/setup.bash 
 ```
 * ### Run your python script 
 ```
-rosrun experiments move_robot_back_rustam_light.py
+rosrun experiments move_robot_back_home.py
 ```
 #
 # How to RUN experiment
